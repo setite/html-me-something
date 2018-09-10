@@ -1,0 +1,16 @@
+p {
+    font-family: cursive;
+  }
+  
+  h1 {
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .title {
+    color: aquamarine;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
