@@ -1,16 +1,53 @@
 p {
-    font-family: cursive;
+  font-family: 'Wing Dings';
+  color: blueviolet;
+  position: relative;
   }
   
-  h1 {
-    color: purple;
-    font-family: 'Courier New', Courier, monospace;
+h1 {
+  color: rgb(1, 103, 143);
+  font-family: Comic;
+  text-align: center;
   }
   
-  .title {
-    color: aquamarine;
+.title {
+  color: aquamarine;
   }
   
-  .uppercase {
-    text-transform: uppercase;
+.uppercase {
+  text-transform: uppercase;
   }
+
+.professional {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  float: left;
+  margin: 10px;
+  }
+
+.portrait {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  margin: 10px;
+  float: right;
+  }
+
+.cartoon {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  margin: 10px;
+  float: left;
+
+  }
+
+.sisko {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 10px;
+  float: right;
+  }
+
