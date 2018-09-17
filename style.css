@@ -1,15 +1,22 @@
 p {
-  /* display: flex; */
+  display: flex;
+  position: relative;
+  float: right;
   font-family: 'Wing Dings';
   font-size: 20px;
   color: darkblue;
-  position: relative;
-  text-indent: 20px;
+  /* position: relative; */
+  /* text-indent: 20px; */
   margin: 10px;
   justify-content: center;
   }
 
 h1 {
+  text-align: center;
+
+}
+
+h2 {
   color: rgb(1, 103, 143);
   font-family: Comic;
   text-align: center;
@@ -39,9 +46,17 @@ body {
   margin: 10px;
   }
 
-.portrait {
+.img_left {
   /* position: fixed; */
-  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: 10px;
+  float: left;
+  }
+  
+.img_right {
+  /* position: fixed; */
+  /* top: 0px; */
   right: 0px;
   margin: 10px;
   float: right;
@@ -56,16 +71,10 @@ body {
 
   }
 
-.sisko {
-  /* position: fixed; */
-  bottom: 0px;
-  right: 0px;
-  margin: 10px;
-  float: left;
-  }
+
 
 .img_generic {
-  float: initial;
+  float: left;
   position: relative;
 }
 #biography {
