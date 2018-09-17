@@ -1,15 +1,28 @@
 p {
+  /* display: flex; */
   font-family: 'Wing Dings';
-  color: blueviolet;
+  font-size: 20px;
+  color: darkblue;
   position: relative;
+  text-indent: 20px;
+  margin: 10px;
+  justify-content: center;
   }
-  
+
 h1 {
   color: rgb(1, 103, 143);
   font-family: Comic;
   text-align: center;
   }
-  
+
+body {
+  background-image: linear-gradient(to right top,
+   #aca79e, #bba987, #caaa70, #d8aa58, #e7aa3d);
+   height: 100%;
+   margin: 0;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
 .title {
   color: aquamarine;
   }
@@ -19,10 +32,10 @@ h1 {
   }
 
 .professional {
-  /* position: fixed; */
-  top: 0px;
+  position: fixed;
+  bottom: 0px;
   left: 0px;
-  float: left;
+  float: right;
   margin: 10px;
   }
 
@@ -51,3 +64,14 @@ h1 {
   float: left;
   }
 
+.img_generic {
+  float: initial;
+  position: relative;
+}
+#biography {
+
+}
+
+#nerdstuff {
+
+}
